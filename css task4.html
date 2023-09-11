@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css styles.css">
+    <title>task 9</title>
+    <style>
+        .sidenav a {
+            position: absolute;
+            left: -80px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+
+        .sidenav a:hover {
+            left: 0;
+        }
+
+        #about {
+            top: 60px;
+            background-color: #04aa6d;
+        }
+
+        #blog {
+            top: 120px;
+            background-color: #2196f3
+        }
+
+        #projects {
+            top: 180px;
+            background-color: #f44336;
+        }
+
+        #Contact {
+            top: 240px;
+            background-color: #555;
+        }
+
+        .bodycontent {
+            margin-left: 80px;
+        }
+
+        .h2hover {
+            top: 80px;
+            text-align: center;
+        }
+
+        .phover {
+            top: 80px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidenav">
+        <a href="#" id="about">About</a>
+        <a href="#" id="blog">Blog</a>
+        <a href="#" id="projects">projects</a>
+        <a href="#" id="Contact">Contact</a>
+    </div>
+    <div>
+        <h2 class="h2hover">Hoverable Sidenav Buttons</h2>
+        <p class="phover">Hover over the buttons in the left side navigation to open them</p>
+    </div>
+</body>
+
+</html>
